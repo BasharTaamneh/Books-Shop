@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>301 exam</title>
+</head>
+
+<body>
+    <header>
+        <h1>Book shop</h1>
+    </header>
+
+    <main>
+        <div id="table">
+        <table id="mytable">
+            <tfoot id="table-footer"></tfoot>
+        </table>
+    </div>
+<div id="form">
+        <form id="myform">
+            <fieldset>
+                <label for="bookname">Book Name</label>
+                <input type="text" maxlength="24" name="bookname" id="bookname" required><br>
+
+                <label for="bookprice">Book Price</label>
+                <select name="bookprice" id="bookprice" required>
+                    <option value="100">100</option>
+                    <option value="500">500</option>
+                    <option value="1000">1000</option>
+                </select><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    </main>
+
+    <footer>
+        <p>&COPY;bashar taamneh</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
