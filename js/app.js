@@ -73,9 +73,8 @@ function Tfootrender() {
         total += Number(Books[i].Price);
     }
     let trElement = document.createElement('tr');
-    tdElement = document.createElement('td');
-    tdElement.textContent = 'Total price: ' + total + ',00 JOD';
-    trElement.append(tdElement);
+    trElement.id="tot";
+    trElement.textContent = 'Total price:     ' + total + ',00   JOD';
     tableFooter.append(trElement);
 }
 function SavToLocStor() {
